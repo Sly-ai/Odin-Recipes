@@ -1,34 +1,17 @@
-img {
-    width: 50%;
-    height: auto;
-}
-
-nav {
+header {
+    background-color: darkred;
+    color: #ffffff;
+    text-align: center;
     
-    color: rgb(184, 42, 42);
-    display: flex;
-}
-nav ul {
-    list-style: none;
-    margin: 100;
-    padding: 50;
-    display: flex;
 }
 
-nav li {
-    margin: 0 10px;
+ul {
+    font-size: larger;
+    text-align: center;
 }
 
-nav a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 10px;
+div {
+    
+    margin: 100px;
+    padding-left: 390px;
 }
-
-nav a:hover {
-    background-color: #fff;
-    color: rgb(20, 69, 202);
-}
-
-
-
