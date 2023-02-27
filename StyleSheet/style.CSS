@@ -1,8 +1,11 @@
-header {
+.title {
     background-color: darkred;
     color: #ffffff;
     text-align: center;
-    
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+ 
 }
 
 ul {
@@ -10,8 +13,12 @@ ul {
     text-align: center;
 }
 
-div {
+.gifcat {
+    margin: auto;
+    text-align: -webkit-center;
+}
+.bt{
+    font-weight: bold;
+    font-size: larger;
     
-    margin: 100px;
-    padding-left: 390px;
 }
