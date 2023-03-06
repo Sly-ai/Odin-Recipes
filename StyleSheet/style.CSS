@@ -1,5 +1,8 @@
+body{
+    background-image: linear-gradient(to left,rgba(0, 140, 255, 0.89),rgba(155, 255, 242, 0.932),green);
+}
+
 .title {
-    background-color: darkred;
     color: #ffffff;
     text-align: center;
     margin: auto;
@@ -17,8 +20,19 @@ ul {
     margin: auto;
     text-align: -webkit-center;
 }
-.bt{
-    font-weight: bold;
+.box{
+    text-align: center;
+    margin: 10px;
+    position: relative;          
+}
+.button{
     font-size: larger;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    text-decoration:none;
+    display: inline-block;
+    background-image: linear-gradient(to left,rgba(0, 140, 255, 0.89),rgba(155, 255, 242, 0.932),green);
     
 }
