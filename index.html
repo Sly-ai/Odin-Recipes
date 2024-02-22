@@ -2,56 +2,98 @@
 <html lang="en">
 
 <head>
+  <!-- Meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-106MHQF5FM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Title -->
+  <title>Recipes</title>
 
-  gtag('config', 'G-106MHQF5FM');
-</script>
+  <!-- External CSS -->
+  <link rel="stylesheet" type="text/css" href="StyleSheet/style.CSS">
+
+  <!-- Google Tag Manager (Global Site Tag) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-106MHQF5FM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-106MHQF5FM');
+  </script>
 
   <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KHD69WCS');</script>
-    <!-- End Google Tag Manager -->
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Recipes</title>
-    <link rel="StyleSheet" type="text/CSS" href="../Odin-Recipes/StyleSheet/style.CSS" />
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+      var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KHD69WCS');
+  </script>
+  <!-- End Google Tag Manager -->
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHD69WCS" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHD69WCS"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <div class="tenor-gif-embed"  data-postid="23668448" data-share-method="host" data-aspect-ratio="5" data-width="100%"><a
-            href="https://tenor.com/view/eat-yummy-food-gif-23668448">Eat Yummy Sticker</a>from <a
-            href="https://tenor.com/search/eat-stickers">Eat Stickers</a></div>
-    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-   
-    <header>
-        <h1 class="title">My Favorite Recipes</h1>
-    </header>
-
-    <div class="box">
-            <a input type="button" class="button" href="./recipes/lasagna.html">Lasagna</a>
-        
-            <a input type="button" class="button" href="./recipes/Cakes.html">Chocolate Cake</a>
-        </ul>
+  <!-- Header Section -->
+  <header>
+    <h1>My Recipe Book</h1>
+    <!-- Tenor GIF Embed Script -->
+    <div class="tenor-gif-embed" data-postid="23668448" data-share-method="host" data-aspect-ratio="5"
+      data-width="100%">
+      <a href="https://tenor.com/view/eat-yummy-food-gif-23668448">Eat Yummy Sticker</a>
+      from <a href="https://tenor.com/search/eat-stickers">Eat Stickers</a>
     </div>
+    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <!-- Main Content Section -->
+  <main>
+    <!-- Featured Recipes Section -->
+    <section class="featured-recipes">
+      <h2>Featured Recipes</h2>
+      <div class="recipe">
+        <h3>You're favorite Italian recipe</h3>
+        <img src="/Recipe Images/LASAGNE.jpg" alt="Lasgna">
+      </div>
+      <div class="recipe">
+        <h3>You're favorite pastry</h3>
+        <img src="/Recipe Images/ChocolateCake.jpg" alt="Chocolate Cake">
+      </div>
+      <!-- Add more featured recipes as needed -->
+    </section>
 
+    <!-- About Section -->
+    <section class="about">
+      <h2>About My Recipe Book</h2>
+      <p>Welcome to My Recipe Book! Here you'll find a collection of delicious recipes to inspire your next meal.
+        Whether you're a beginner cook or a seasoned chef, there's something here for everyone. Feel free to explore and
+        happy cooking!</p>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 My Recipe Book. All rights reserved.</p>
+  </footer>
 </body>
 
 </html>
